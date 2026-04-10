@@ -19,7 +19,7 @@ public class CuentaBancaria {
 
     public boolean retirar(double cantidad) {
         if (cantidad > 0 && saldo >= cantidad) {
-            saldo -= cantidad; // Cambio en IJ para conflicto
+            saldo -= cantidad;
             return true;
         }
         return false;
